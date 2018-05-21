@@ -173,9 +173,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.appveyor.yml" />
-    <None Include="..\Debug\MiniVST.cfg" />
     <None Include="..\LICENSE" />
     <None Include="..\README.md" />
+    <None Include="MiniVST.cfg" />
     <None Include="MiniVST.licenseheader" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

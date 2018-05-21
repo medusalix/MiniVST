@@ -87,9 +87,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="MiniVST.licenseheader" />
-    <None Include="..\Debug\MiniVST.cfg" />
     <None Include="..\.appveyor.yml" />
     <None Include="..\LICENSE" />
     <None Include="..\README.md" />
+    <None Include="MiniVST.cfg" />
   </ItemGroup>
 </Project>
