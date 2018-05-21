@@ -1,0 +1,1 @@
+Download the **VST2 SDK** from the [Steinberg](https://www.steinberg.net/en/company/developers.html) website and put `aeffect.h` and `aeffectx.h` into this folder.

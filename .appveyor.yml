@@ -1,0 +1,6 @@
+image: Visual Studio 2017
+platform: x86
+
+install:
+  - ps: Start-FileDownload "https://download.steinberg.net/sdk_downloads/vstsdk369_01_03_2018_build_132.zip"
+  - ps: 7z.exe e vstsdk369_01_03_2018_build_132.zip -oMiniVST/include VST_SDK/VST2_SDK/pluginterfaces/vst2.x/*
